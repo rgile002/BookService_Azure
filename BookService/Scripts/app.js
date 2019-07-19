@@ -25,7 +25,7 @@
     }
 
     // get the list of books on load
-    gettAllBooks();
+    getAllBooks();
 };
 
 ko.applyBindings(new ViewModel());
