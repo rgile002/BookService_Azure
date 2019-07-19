@@ -24,7 +24,7 @@
         });
     }
 
-    // get data on load
+    // get the list of books on load
     gettAllBooks();
 };
 
