@@ -32,7 +32,7 @@
         ajaxHelper(booksUri + item.Id, 'GET').done(function (data) {
             self.detail(data);
         });
-    }
+    };
 };
 
 ko.applyBindings(new ViewModel());
